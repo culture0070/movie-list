@@ -1,0 +1,15 @@
+import {
+    GITHUB_CLIENT_ID,
+    GITHUB_CLIENT_SECRET,
+    GOOGLE_CLIENT_ID,
+    TMDB_API_KEY,
+    TMDB_API_URL
+} from '@env';
+
+export const Env = {
+    GOOGLE_CLIENT_ID,
+    GITHUB_CLIENT_ID,
+    GITHUB_CLIENT_SECRET,
+    TMDB_API_KEY,
+    TMDB_API_URL
+};
