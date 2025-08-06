@@ -54,7 +54,10 @@ const LoginScreen = () => {
                 <Text style={styles.title}>MovieList</Text>
                 <TouchableOpacity
                     style={styles.googleButton}
-                    onPress={() => promptAsync()}
+                    // onPress={() => promptAsync()} //Todo: implement Google Login
+                    onPress={() => {
+                        navigation.navigate('Main');
+                    }}
                     disabled={!request}
                 >
                     <AntDesign name="google" size={24} color="white" style={styles.googleIcon} />
