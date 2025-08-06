@@ -48,7 +48,7 @@ const LoginScreen = () => {
             <StatusBar barStyle="light-content" />
             <View style={styles.content}>
                 <Image
-                    source={require('/Users/culture007/code/mobile/react-native/movie-list/assets/logo.png')}
+                    source={require('../../../assets/logo.png')}
                     style={styles.logo}
                 />
                 <Text style={styles.title}>MovieList</Text>
